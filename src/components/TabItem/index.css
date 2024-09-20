@@ -1,0 +1,22 @@
+.highlight {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.tab-btn {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+  outline: none;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}

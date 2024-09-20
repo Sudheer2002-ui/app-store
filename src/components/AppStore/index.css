@@ -1,0 +1,52 @@
+.bg {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.heading {
+  font-family: Bree Serif;
+  margin: 0px;
+  text-align: center;
+}
+.inp {
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  padding: 10px;
+  font-family: Bree Serif;
+  width: 100%;
+}
+.searchdiv {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  border: 2px solid #7b8794;
+  height: 50px;
+  border-radius: 5px;
+  padding: 10px;
+  width: 320px;
+}
+.imga {
+  height: 30px;
+  width: 30px;
+}
+.lul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin: 0 auto; /* Center the entire list within the container */
+  margin-top: 20px; /* Add some space below the search div */
+  gap: 20px; /* Optional: Add spacing between the list items */
+}
+.appdiv {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
